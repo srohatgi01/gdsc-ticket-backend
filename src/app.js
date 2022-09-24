@@ -23,7 +23,7 @@ app.post("/students" , (req , res)=>{
 
 })
 
-app.listen(3500 , ()=>{
-    console.log(`Connection is setup at ${3500} `)
+app.listen(port , ()=>{
+    console.log(`Connection is setup at ${port} `)
 
 })
